@@ -1,0 +1,99 @@
+header{
+    height:100vh;
+    background-color: rgb(14, 82, 228);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header h1{
+    color:white;
+    text-align: center;
+    
+}
+h1{
+    font-size:50px;
+    color:blue;
+}
+body{
+    background-color:#f0f8ff;
+    margin:0;
+    font-size:15px;
+}
+*{
+    font-family: monospace;
+}
+.button{
+    margin: 15px;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.button:hover{
+    color: white;
+background-color:darkcyan;
+}
+section{
+    border: 2px solid lightgrey;
+    height:100vh;
+    border-radius:20px;
+    margin-bottom:20px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    height:200px;
+}
+main{
+    padding:20px;
+}
+.submit{
+    height:20px;
+    width:140px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background-color:rgb(14, 130, 219);
+    color:white;
+}
+.submit:hover{
+    color:white;
+    background-color: rgb(69, 177, 226);
+    
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: 1px solid lightgrey;
+    border-radius: 500px;
+    height: 25px;
+}
+footer{
+    height: 124px;
+    background-color: black;
+    color: lightgrey; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fixedbutton{
+    padding:50px;
+    height:20px;
+    width:20px;
+    right: 10px;
+    position: fixed;
+    bottom: 0;
+    color:blueviolet;
+    background-color: aquamarine;
+    border-radius:1000px;
+}
